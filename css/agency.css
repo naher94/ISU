@@ -58,6 +58,9 @@ h6 {
 .img-centered {
     margin: 0 auto;
 }
+.img-square{
+    border-radius: 20px;
+}
 
 .bg-light-gray {
     background-color: #f7f7f7;
@@ -436,9 +439,9 @@ section h3.section-subheading {
     top: 0;
     bottom: 0;
     left: 40px;
-    width: 2px;
+    width: 2px;/*line styling in time line*/
     margin-left: -1.5px;
-    background-color: #f1f1f1;
+    background-color: #f1f1f1;/*line styling in time line*/
 }
 
 .timeline>li {
@@ -487,10 +490,10 @@ section h3.section-subheading {
     height: 80px;
     margin-left: 0;
     border: 7px solid #f1f1f1;
-    border-radius: 100%;
+    border-radius: 25px;
     text-align: center;
     color: #fff;
-    background-color: #2AA949;
+    background-color: #f1f1f1;
 }
 
 .timeline>li .timeline-image h4 {
