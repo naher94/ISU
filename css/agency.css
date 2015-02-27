@@ -787,15 +787,6 @@ ul.social-buttons li a:active {
     opacity: 0;
 }
 
-::-moz-selection {
-    text-shadow: none;
-    background: #2AA949;
-}
-
-::selection {
-    text-shadow: none;
-}
-
 img::selection {
     background: 0 0;
 }
