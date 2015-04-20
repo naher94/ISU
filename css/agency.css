@@ -12,7 +12,9 @@ body {
     overflow-x: hidden;
     font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
-
+#logo{
+    width: 400px;
+}
 .text-muted {
     color: #777;
 }
@@ -234,7 +236,6 @@ fieldset[disabled] .btn-xl.active {
     color: #fff;
     background-color: #249239;
 }
-
 @media(min-width:768px) {
     .navbar-default {
         padding: 25px 0;
@@ -264,13 +265,16 @@ fieldset[disabled] .btn-xl.active {
     .navbar-default.navbar-shrink .navbar-brand {
         font-size: 1.5em;
     }
+    #logo{
+    width: 700px;
+}
 }
 
 header {
     display: table;
     position: relative;
     width: 100%;
-    height: 100%;
+    height: 200px;
     text-align: center;
     color: #313131;
     background-attachment: scroll;
@@ -582,6 +586,9 @@ section h3.section-subheading {
         float: right;
         padding: 0 30px 20px 20px;
         text-align: left;
+    }
+    header{
+            height: 100%;
     }
 }
 
